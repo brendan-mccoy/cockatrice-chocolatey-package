@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cockatrice</id>
+    <title>Cockatrice (Install)</title>
+    <version>2016.05.06</version>
+    <authors>Cockatrice Team</authors>
+    <owners>Brendan_McCoy</owners>
+    <summary>Cockatrice is an open-source multiplatform supported program for playing tabletop card games over a network.</summary>
+    <description>Cockatrice is an open-source multiplatform supported program for playing tabletop card games over a network. The program's server design prevents any kind of client modifications to gain an unfair advantage in a game. The client also has a built in single-player mode where you can brew without being connected to a server. This project is written in C++/Qt with support for both Qt4 and Qt5. 
+    </description>
+    <projectUrl>https://cockatrice.github.io/</projectUrl>
+    <projectSourceUrl>https://github.com/Cockatrice/Cockatrice/tree/2016-05-06-Release</projectSourceUrl>
+    <docsUrl>https://github.com/Cockatrice/Cockatrice/wiki</docsUrl>
+    <mailingListUrl>https://gitter.im/Cockatrice/Cockatrice</mailingListUrl>
+    <bugTrackerUrl>https://github.com/Cockatrice/Cockatrice/issues</bugTrackerUrl>
+    <tags>cockatrice card games magic admin</tags>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/Cockatrice/cockatrice.github.io/master/images/cockatrice_logo.png</iconUrl>
+    <dependencies>
+	<dependency id="vcredist2013" version="12.0.30501.20150616"/>
+    </dependencies>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
