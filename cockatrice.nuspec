@@ -11,6 +11,7 @@
     <summary>Cockatrice is an open-source multiplatform supported program for playing tabletop card games over a network.</summary>
     <description>Cockatrice is an open-source multiplatform supported program for playing tabletop card games over a network. The program's server design prevents any kind of client modifications to gain an unfair advantage in a game. The client also has a built in single-player mode where you can brew without being connected to a server. This project is written in C++/Qt with support for both Qt4 and Qt5. 
     </description>
+	<packageSourceUrl>https://github.com/Brendan-McCoy/cockatrice-chocolatey-package</packageSourceUrl>
     <projectUrl>https://cockatrice.github.io/</projectUrl>
     <projectSourceUrl>https://github.com/Cockatrice/Cockatrice/tree/2016-05-06-Release</projectSourceUrl>
     <docsUrl>https://github.com/Cockatrice/Cockatrice/wiki</docsUrl>
@@ -23,7 +24,7 @@
     <dependencies>
 	<dependency id="vcredist2013" version="12.0.30501.20150616"/>
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://github.com/Cockatrice/Cockatrice/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
