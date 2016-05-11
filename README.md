@@ -1,0 +1,1 @@
+"# cockatrice-chocolatey-package" 
